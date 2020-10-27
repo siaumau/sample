@@ -1,4 +1,5 @@
+---
 deployment:
-tasks:
-- export DEPLOYPATH=/home3/combopcc/demo
-- /bin/cp -r * $DEPLOYPATH
+  tasks:
+    - export DEPLOYPATH=/home3/combopcc/demo/
+    - /bin/cp -R * $DEPLOYPATH
